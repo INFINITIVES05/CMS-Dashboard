@@ -1,0 +1,64 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1; /* This ensures the container takes up the remaining space */
+}
+
+footer {
+    margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff0037;
+}
+.navbar ul li a.active{
+    color: #ff2929;
+    border-bottom: 0.2rem solid #ff2929;
+    padding: 0.5rem 0;
+}
+
+.btn-outline-primary {
+    margin-left: 20px;
+}
+.navbar {
+    padding: 0.5rem 1rem; 
+}
+
+.navbar-brand img {
+    width: 120px; /* Reduced logo width */
+    height: 80px; /* Reduced logo height */
+}
+
+.nav-link {
+    padding: 0.25rem 0.5rem; /* Adjust link padding to reduce height */
+}
+
+.btn-outline-primary {
+    padding: 0.25rem 0.75rem; /* Adjust button padding to fit smaller navbar */
+    font-size: 14px; /* Adjust font size for the button */
+}
+body {
+    margin: 0;
+    padding-bottom: 60px; /* Height of the footer */
+}
+
+body {
+    margin: 0;
+    padding-bottom: 40px; /* Adjusted to match the new footer height */
+}

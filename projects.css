@@ -1,0 +1,33 @@
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: rgb(63, 3, 82);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.icon-container {
+    font-size: 40px;
+    color: rgb(63, 3, 82); /* Updated the color for better visibility */
+}
+
+.card h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(63, 3, 82); /* Ensure the heading text color is consistent */
+}
+
+.card p {
+    margin: 0;
+    color: rgb(63, 3, 82);
+}

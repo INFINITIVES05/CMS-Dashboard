@@ -1,0 +1,224 @@
+.match-summary {
+    background-color: #1b2a49;
+    color: white;
+    width: 1000px; /* Adjust as needed */
+    padding: 20px;
+    margin: 50px auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.header .logo {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+}
+
+.header .text-center {
+    text-align: center;
+    flex: 1;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.header h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.date-venue {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.date-venue span {
+    margin: 0 10px;
+}
+
+.team {
+    background-color: #b12034;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.team-score {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.team-score h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.team-score p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.players {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.players .players-list {
+    width: 48%;
+}
+
+.players ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.players ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.divider {
+    height: 1px;
+    background-color: white;
+    margin: 15px 0;
+}
+
+.inningstm1-section {
+    margin-bottom: 20px;
+}
+
+.inningstm2-section {
+    margin-bottom: 20px;
+}
+
+.winning-result {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1500px; /* Match summary template*/
+    height: auto;
+}
+.form-container{
+    padding-left: 100px;
+    padding-right: 100px; 
+}
+.team-performance {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.team-logo {
+    flex: 0 0 100px; /* Adjust as needed */
+    margin-right: 20px;
+}
+
+.team-logo img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.team-details {
+    flex: 1;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container-fluid {
+    padding-left: 20px;  /* Adjust as needed */
+    padding-right: 20px; /* Adjust as needed */
+}
+
+@media (min-width: 768px) {
+    .container-fluid {
+        padding-left: 40px;  /* Adjust as needed */
+        padding-right: 40px; /* Adjust as needed */
+    }
+}
+
+.color-input {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.color-input:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+/* Ensure the button is positioned on the right */
+.button-container {
+    text-align: right; /* Align button to the right */
+    margin-right: 20px;
+    margin-top: 400px; /* Add space from the top if needed */
+}
+
+.btn-link {
+    color: white;
+    background-color: #b12034; /* Match this to the color scheme you desire */
+    border: none;
+    font-size: 24px; /* Adjust size as needed */
+}
+
+.btn-link:hover {
+    color: #ffffff;
+    background-color: #a1131b; /* Adjust hover color if needed */
+}
+.feedback-section {
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+
+.feedback-section h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.feedback-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.feedback-form .form-label {
+    font-weight: bold;
+}
+
+.feedback-form .form-control {
+    margin-bottom: 15px;
+}
+
+.feedback-form .btn-primary {
+    background-color: #b12034;
+    border: none;
+}
+
+.feedback-form .btn-primary:hover {
+    background-color: #a1131b;
+}
